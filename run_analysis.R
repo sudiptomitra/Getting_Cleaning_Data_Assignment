@@ -21,15 +21,15 @@ library(dplyr)
 
 ######################################################################################################
 
-#fileurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#zipfile <- "UCI HAR Dataset.zip"
+fileurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+zipfile <- "UCI HAR Dataset.zip"
 
 
-#if (!file.exists(zipfile)) {
- #       download.file(fileurl, zipfile , method = "curl")
-#}
+if (!file.exists(zipfile)) {
+       download.file(fileurl, zipfile , method = "curl")
+}
 
-#unzip(zipfile)
+unzip(zipfile)
 
 
 #####################################################################################################
